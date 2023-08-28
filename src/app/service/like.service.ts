@@ -4,7 +4,7 @@ import { StoreService } from './store.service';
 @Injectable({
   providedIn: 'root'
 })
-export class LikeService {
+export class LikeService implements user {
 
   constructor(private storeService: StoreService) { }
 
